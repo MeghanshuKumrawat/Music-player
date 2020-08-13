@@ -24,7 +24,7 @@ class Player:
         scroll.pack(side=RIGHT, fill=Y)
         self.playlist.pack(fill=BOTH)
 
-        os.chdir("C:\\Users\\maashree\\Music")
+        os.chdir("#Add your playlist path")
         self.song_track = os.listdir()
 
         for i in self.song_track:
