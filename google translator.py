@@ -11,8 +11,7 @@ class Google_translator:
         self.root.title('Google Translator')
         self.root.geometry('280x460')
         self.root.config(bg="#4285F4")
-        self.google_name = PhotoImage(file='img\\download.png')
-        self.google_logo = PhotoImage(file='img\\go.png')
+        self.google_logo = PhotoImage(file='logo.png')
 
         self.input_text = ScrolledText(self.root, width=30, height=7)
         self.input_text.place(x=10, y=10)
